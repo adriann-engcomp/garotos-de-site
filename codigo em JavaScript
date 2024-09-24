@@ -1,0 +1,16 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const btnPesquisar = document.getElementById('btn-pesquisar');
+
+  btnPesquisar.addEventListener('click', function () {
+    const destino = document.getElementById('destino').value;
+    const checkin = document.getElementById('checkin').value;
+    const checkout = document.getElementById('checkout').value;
+    const hospedes = document.getElementById('hospedes').value;
+
+    if (destino && checkin && checkout && hospedes) {
+      alert(Pesquisando por:\nDestino: ${destino}\nCheck-in: ${checkin}\nCheck-out: ${checkout}\nHóspedes: ${hospedes});
+    } else {
+      alert('Por favor, preencha todos os campos.');
+    }
+  });
+});
