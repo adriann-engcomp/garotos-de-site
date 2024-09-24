@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa de Reservas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Reserva de Hotéis</h1>
+    <nav>
+      <a href="#atividades">Atividades</a>
+      <a href="#participantes">Participantes</a>
+    </nav>
+  </header>
+
+  <!-- Barra de Pesquisa estilo booking -->
+  <section id="barra-pesquisa">
+    <div class="barra-container">
+      <input type="text" id="destino" placeholder="Para onde você vai?">
+      
+      <input type="date" id="checkin" placeholder="Data de Check-in">
+      <input type="date" id="checkout" placeholder="Data de Check-out">
+      
+      <input type="text" id="hospedes" placeholder="2 adultos · 0 crianças · 1 cômodo">
+      
+      <button type="button" id="btn-pesquisar">Pesquisar</button>
+    </div>
+  </section>
+
+  <section id="atividades">
+    <h2>Atividades do Evento</h2>
+    <!-- Conteúdo da página -->
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
